@@ -1,0 +1,29 @@
+.btn-outline {
+    padding: 11px 31px;
+    border: solid 1px #FDF2DB;
+    color: #FDF2DB;
+    border-radius: 25px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn-outline:hover{
+    border: solid 1px #FDF2DB;
+    cursor: pointer;
+}
+.btn-outline:before {
+    position: absolute;
+    width: 20px;
+    height: 200%;
+    content: '';
+    background-color: #fdf2db;
+    left: -40px;
+    top: -50%;
+    bottom: 0;
+    rotate: 143deg;
+    transition: 5.1s;
+}
+.btn-outline:hover:before {
+    left: 105%;
+}

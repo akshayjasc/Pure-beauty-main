@@ -1,0 +1,33 @@
+.login-form {
+    text-align: left;
+    padding-top: 84px;
+    color: #FDF2DB;
+  }
+  
+  .login-form .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #fff;
+    border-radius: 0;
+    padding: 10px 10px 14px 0;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #FDF2DB;
+  }
+  .login-form .form-control:focus {
+   box-shadow: none;
+  }
+  .login-form .form-control::placeholder {
+    color: #FDF2DB;
+  }
+  .login-form h2 {
+    margin-bottom: 38px;
+}
+.login-form .btn{
+  margin-top: 18px;
+  margin-bottom: 28px;
+}
+.login-form .text-link{
+  margin-left: 5px;
+}

@@ -1,0 +1,14 @@
+header{
+    background-color: #FDF2DB;
+    padding: 24px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+@media (max-width: 600px){
+    header img {
+        max-width: 160px;
+    }
+}

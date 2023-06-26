@@ -1,0 +1,32 @@
+.shop-card {
+    height: 720px;
+    background-size: cover;
+    padding: 16px 64px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #842A3A;
+}
+.shop-card .heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.shop-card .price {
+    font-size: 16px;
+}
+.shop-card {
+    border-bottom: solid 1px #842A3A;
+    border-right: solid 1px #842A3A;
+}
+
+.shop-card:nth-child(even) {
+    border-right: none;
+}
+
+@media (max-width:700px){
+    .shop-card{
+        height: 360px;
+    }
+}

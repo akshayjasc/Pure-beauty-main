@@ -1,0 +1,54 @@
+
+.login-section {
+  background-color: #842A3A;
+  height: 100vh;
+}
+.login-section .img-container {
+  position: absolute;
+  right: 0;
+}
+.login-section .img-container img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  max-height: 800px;
+  object-fit: cover;
+}
+@media (max-width:1500px){
+  .login-section .img-container img {
+    max-height: 700px;
+  }
+}
+@media (max-width:1300px){
+  .login-section .img-container img {
+    max-height: 600px;
+  }
+}
+@media (max-width:1124px){
+  .login-section .img-container img {
+    max-height: 500px;
+  }
+}
+@media (max-width:991px){
+  .login-section .img-container img {
+    max-height: 500px;
+  }
+  .login-section .img-container {
+    display: none;
+  }
+}
+.blogcard-container{
+  margin-top: 8px;
+}
+.blogcard-container .blog-col:nth-child(3) .blog-card,.blogcard-container .blog-col:nth-child(4) .blog-card{
+  flex-direction: row-reverse;
+}
+@media (max-width:767px){
+  .blogcard-container .blog-col:nth-child(even) .blog-card{
+    flex-direction: row-reverse !important;
+  }
+  .blogcard-container .blog-col:nth-child(odd) .blog-card{
+    flex-direction: row !important;
+  }
+}
